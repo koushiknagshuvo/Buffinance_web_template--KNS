@@ -131,6 +131,12 @@ a {
   padding-right: 30px;
 }
 
+.Hero_section .Hero_img .Hero_slyder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .Hero_section .Hero_img .Hero_slyder .owl-carousel {
   height: 105px;
   width: 700px;
