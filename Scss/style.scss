@@ -120,7 +120,7 @@ a {
             
         }
         .Hero_slyder {
-            display: flex;
+            
             .owl-carousel {
                 height: 105px;
                 width: 700px;
@@ -129,6 +129,7 @@ a {
                 padding-left: 40px;
                 background-color: $main_text_color;
                 border-radius: 35px 5px 5px 5px;
+                display: flex;
     
                 .item {
                     width: 170px;
