@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="208" height="208" viewBox="0 0 208 208">
+  <defs>
+    <filter id="Rectangle_6" x="0" y="0" width="208" height="208" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="23" result="blur"/>
+      <feFlood flood-color="#acacac" flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(-868 -1168)">
+    <g transform="matrix(1, 0, 0, 1, 868, 1168)" filter="url(#Rectangle_6)">
+      <rect id="Rectangle_6-2" data-name="Rectangle 6" width="70" height="70" rx="15" transform="translate(59 49)" fill="#fff"/>
+    </g>
+    <text id="_" data-name="✨" transform="translate(941 1264)" font-size="30" font-family="SegoeUIEmoji, Segoe UI Emoji"><tspan x="0" y="0">✨</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+@media (max-width: 552px) {
+  .Hero_section .Hero_info {
+    margin: 0 auto;
+  }
+  .Hero_section .Hero_info h1 {
+    line-height: 3.8rem;
+    text-align: center;
+    -webkit-transform: translateX(-45px);
+            transform: translateX(-45px);
+    margin-top: -50px;
+    margin-bottom: 25px;
+  }
+  .Hero_section .Hero_info p {
+    text-align: center;
+    -webkit-transform: translateX(-45px);
+            transform: translateX(-45px);
+  }
+  .Hero_section .Hero_info button {
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
+  }
+  .Hero_section .Hero_img {
+    position: relative;
+  }
+  .Hero_section .Hero_img img {
+    padding-right: 30px;
+  }
+  .Hero_section .Hero_img .Hero_slyder .owl-carousel {
+    height: 105px;
+    width: 700px;
+    position: absolute;
+    top: 350px;
+    padding-left: 40px;
+    background-color: #4B6FDB;
+    border-radius: 35px 5px 5px 5px;
+  }
+  .Hero_section .Hero_img .Hero_slyder .owl-carousel .item {
+    width: 170px;
+    height: auto;
+    padding-top: 10px;
+  }
+}
+/*# sourceMappingURL=Responsiv.css.map */

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="374" height="331" viewBox="0 0 374 331">
+  <defs>
+    <filter id="Rectangle_6" x="0" y="0" width="227" height="227" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="23" result="blur"/>
+      <feFlood flood-color="#acacac" flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_6-2" x="147" y="104" width="227" height="227" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="23" result="blur-2"/>
+      <feFlood flood-color="#acacac" flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_13" data-name="Group 13" transform="translate(-555 -2451)">
+    <path id="Path_3" data-name="Path 3" d="M694.316,2544.5s31.392-23.413,41.856,0-8.925,70.24,0,93.653,35.7,0,35.7,0" fill="none" stroke="#707070" stroke-width="3"/>
+    <g id="Group_11" data-name="Group 11" transform="translate(-313 1283)">
+      <g transform="matrix(1, 0, 0, 1, 868, 1168)" filter="url(#Rectangle_6)">
+        <rect id="Rectangle_6-3" data-name="Rectangle 6" width="89" height="89" rx="15" transform="translate(59 49)" fill="#fff"/>
+      </g>
+      <text id="_" data-name="😎" transform="translate(945 1277)" font-size="38" font-family="SegoeUIEmoji, Segoe UI Emoji"><tspan x="0" y="0">😎</tspan></text>
+    </g>
+    <g id="Group_12" data-name="Group 12" transform="translate(-166 1387)">
+      <g transform="matrix(1, 0, 0, 1, 721, 1064)" filter="url(#Rectangle_6-2)">
+        <rect id="Rectangle_6-4" data-name="Rectangle 6" width="89" height="89" rx="15" transform="translate(206 153)" fill="#fff"/>
+      </g>
+      <text id="_2" data-name="👍" transform="translate(948 1275)" font-size="38" font-family="SegoeUIEmoji, Segoe UI Emoji"><tspan x="0" y="0">👍</tspan></text>
+    </g>
+  </g>
+</svg>
