@@ -26,18 +26,352 @@
     padding-right: 30px;
   }
   .Hero_section .Hero_img .Hero_slyder .owl-carousel {
-    height: 105px;
-    width: 700px;
+    height: 75px;
+    width: 380px;
     position: absolute;
-    top: 350px;
+    top: 200px;
     padding-left: 40px;
     background-color: #4B6FDB;
     border-radius: 35px 5px 5px 5px;
   }
   .Hero_section .Hero_img .Hero_slyder .owl-carousel .item {
-    width: 170px;
+    width: 130px;
     height: auto;
     padding-top: 10px;
+  }
+  .Hero_section .Hero_side_design img {
+    position: absolute;
+    height: 180px;
+    top: 10%;
+    left: 20px;
+    z-index: -1;
+  }
+  .Why_us .part_1 {
+    padding-left: 25px;
+    padding-top: 80px;
+  }
+  .Why_us .part_1 p {
+    font-weight: 600;
+    color: #4B6FDB;
+    text-align: center;
+  }
+  .Why_us .part_1 p span {
+    padding-left: 10px;
+  }
+  .Why_us .part_1 h1 {
+    text-align: center;
+  }
+  .Why_us .part_2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Why_us .part_2 img {
+    margin-bottom: -86px;
+    padding-left: 50px;
+  }
+  .Why_us .part_2 p {
+    text-align: center;
+    margin-left: 25px;
+  }
+  .Rated {
+    position: relative;
+  }
+  .Rated .Rated_img img {
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+  .Rated .Rated_info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Rated .Rated_info img {
+    margin-bottom: -50px;
+    padding-top: 70px;
+  }
+  .Rated .Rated_info h1 {
+    text-align: center;
+    margin-left: -30px;
+  }
+  .Rated .Rated_info .Rated_work_info {
+    text-align: center;
+    margin-left: -30px;
+  }
+  .Rated .Rated_info button {
+    padding: 15px 45px 8px 45px;
+    margin-top: 40px;
+    margin-left: -35px;
+  }
+  .Rated .Rated_info button img {
+    height: 45px;
+    width: auto;
+    padding-top: 5px;
+  }
+  .Rated .Rated_info button p {
+    padding-left: 20px;
+    padding-top: 8px;
+    font-weight: 600;
+    color: #4B6FDB;
+  }
+  .Rated #Rated_side_section #Rated_side_section_01 {
+    position: absolute;
+    top: -4%;
+    left: 70%;
+    z-index: -1;
+    height: 100px;
+    width: auto;
+  }
+  .Rated #Rated_side_section #Rated_side_section_02 {
+    position: absolute;
+    top: 120%;
+    left: 5%;
+    height: 150px;
+  }
+  .Just_stay {
+    position: relative;
+    padding-top: 150px;
+  }
+  .Just_stay .just_stay_img img {
+    height: 400px;
+    width: auto;
+    margin-left: 40px;
+    margin-top: 150px;
+  }
+  .Just_stay .just_stay_info {
+    margin-top: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Just_stay .just_stay_info img {
+    margin-bottom: -55px;
+  }
+  .Just_stay .just_stay_info .just_information {
+    text-align: end;
+  }
+  .Just_stay .just_stay_info .just_information h1 {
+    padding-right: 70px;
+  }
+  .Just_stay .just_stay_info .just_information p {
+    padding-right: 75px;
+  }
+  .Just_stay .just_stay_info button {
+    border: none;
+    background-color: white;
+    padding: 18px 45px 8px 45px;
+    color: white;
+    font-weight: 500;
+    border-radius: 50px;
+    -webkit-box-shadow: 10px 10px 15px 15px #5a5a5a13;
+            box-shadow: 10px 10px 15px 15px #5a5a5a13;
+    margin-top: 40px;
+    margin-right: 75px;
+  }
+  .Just_stay .just_stay_info button img {
+    height: 45px;
+    width: auto;
+    padding-top: 5px;
+  }
+  .Just_stay .just_stay_info button p {
+    padding-left: 20px;
+    padding-top: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #4B6FDB;
+  }
+  .Just_stay .Just_stay_side_section .Just_stay_side_section_01 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    height: 170px;
+  }
+  .Just_stay .Just_stay_side_section .Just_stay_side_section_02 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    z-index: -1;
+    height: 300px;
+    width: auto;
+  }
+  .Make_partnership {
+    position: relative;
+  }
+  .Make_partnership .Make_partnership_main {
+    text-align: center;
+  }
+  .Make_partnership .left-1 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .Make_partnership .left-1 .info {
+    padding: 60px;
+    background-color: #6a00ff;
+    border-radius: 0px 0px 8px 8px;
+  }
+  .Make_partnership .left-1 .info h6 {
+    font-size: 26px;
+    line-height: 2rem;
+    color: white;
+  }
+  .Make_partnership .left-1 .info p {
+    color: white;
+    line-height: 1.5rem;
+    padding-top: 10px;
+  }
+  .Make_partnership .left-1 .left-1_img img {
+    border-radius: 8px 8px 0px 0px;
+    max-height: 300px;
+    height: 300px;
+    width: 100%;
+  }
+  .Make_partnership .left-2 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Make_partnership .left-2 .info {
+    padding: 60px;
+    background-color: #ff8400;
+    border-radius: 0px 0px 8px 8px;
+  }
+  .Make_partnership .left-2 .info h6 {
+    font-size: 26px;
+    line-height: 2rem;
+    color: white;
+  }
+  .Make_partnership .left-2 .info p {
+    color: white;
+    line-height: 1.5rem;
+    padding-top: 10px;
+  }
+  .Make_partnership .left-2 .left-2_img img {
+    border-radius: 8px 8px 0px 0px;
+    max-height: 300px;
+    height: 300px;
+    width: 100%;
+  }
+  .Make_partnership .right-1 {
+    padding: 40px;
+  }
+  .Make_partnership .right-1 .right-1_img img {
+    border-radius: 8px 8px 0px 0px;
+  }
+  .Make_partnership .right-1 .info {
+    background-color: #ff0054;
+    padding: 13px 20px 13px 20px;
+    border-radius: 0px 0px 8px 8px;
+  }
+  .Make_partnership .right-1 .info h6 {
+    font-size: 26px;
+    line-height: 2rem;
+    color: white;
+  }
+  .Make_partnership .right-1 .info p {
+    color: white;
+    line-height: 1.5rem;
+    padding-top: 5px;
+  }
+  .Make_partnership button {
+    border: none;
+    background-color: white;
+    padding: 18px 45px 8px 45px;
+    color: white;
+    font-weight: 500;
+    border-radius: 50px;
+    -webkit-box-shadow: 10px 10px 15px 15px #5a5a5a13;
+            box-shadow: 10px 10px 15px 15px #5a5a5a13;
+    margin-top: 90px;
+    margin-right: 75px;
+  }
+  .Make_partnership button img {
+    height: 45px;
+    width: auto;
+    padding-top: 5px;
+  }
+  .Make_partnership button p {
+    padding-left: 20px;
+    padding-top: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #4B6FDB;
+  }
+  .Make_partnership .Make_partnership_side_section .Make_partnership_side_section_01 {
+    position: absolute;
+    height: 200px;
+    top: 80%;
+    left: 10px;
+    z-index: -1;
+  }
+  .Make_partnership .Make_partnership_side_section .Make_partnership_side_section_02 {
+    position: absolute;
+    height: 150px;
+    top: 2%;
+    left: 65%;
+    z-index: -1;
+  }
+  .community_section {
+    position: relative;
+    margin-top: -5rem;
+  }
+  .community_section .community_section_info {
+    padding-top: 15rem;
+  }
+  .community_section .community_section_info h1 {
+    text-align: center;
+  }
+  .community_section .community_section_info p {
+    text-align: center;
+  }
+  .community_section .community_section_img {
+    padding-bottom: 20rem;
+  }
+  .community_section .community_section_side_section .community_section_side_section_img_01 {
+    position: absolute;
+    top: 15%;
+    left: 70%;
+  }
+  .community_section .community_section_side_section .community_section_side_section_02 {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    z-index: -1;
+    height: 150px;
   }
 }
 /*# sourceMappingURL=Responsiv.css.map */
