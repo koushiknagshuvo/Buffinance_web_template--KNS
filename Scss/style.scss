@@ -27,7 +27,7 @@ h5,
 h6 {
     color: black;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 7vh;
     line-height: 4rem;
 }
 p,
@@ -39,6 +39,7 @@ a {
 .animate__animated{
     animation-duration: 3s;
 }
+
 
 /* Default code section end ============================================ */
 // nav bar start==========================================================
@@ -126,8 +127,8 @@ a {
         .Hero_slyder {
             
             .owl-carousel {
-                height: 105px;
-                width: 700px;
+                height: 14vh;
+                width: 45vw;
                 position: absolute;
                 top:350px;
                 padding-left: 40px;
@@ -136,7 +137,7 @@ a {
                 display: flex;
     
                 .item {
-                    width: 170px;
+                    width: 11vw;
                     height: auto;
                     padding-top: 10px;
                 }

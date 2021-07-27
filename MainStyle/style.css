@@ -28,7 +28,7 @@ h5,
 h6 {
   color: black;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 7vh;
   line-height: 4rem;
 }
 
@@ -36,6 +36,11 @@ p,
 a {
   color: #707070;
   line-height: 2rem;
+}
+
+.animate__animated {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
 }
 
 /* Default code section end ============================================ */
@@ -132,8 +137,8 @@ a {
 }
 
 .Hero_section .Hero_img .Hero_slyder .owl-carousel {
-  height: 105px;
-  width: 700px;
+  height: 14vh;
+  width: 45vw;
   position: absolute;
   top: 350px;
   padding-left: 40px;
@@ -145,7 +150,7 @@ a {
 }
 
 .Hero_section .Hero_img .Hero_slyder .owl-carousel .item {
-  width: 170px;
+  width: 11vw;
   height: auto;
   padding-top: 10px;
 }
