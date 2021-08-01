@@ -99,7 +99,7 @@ a {
             line-height: 3.8rem;
         }
         button {
-            padding: 15px 65px;
+            padding: 2vh 7vh;
             border: none;
             outline: none;
             cursor: pointer;
@@ -209,7 +209,7 @@ a {
         button {
             border: none;
             background-color: white;
-            padding: 18px 45px 8px 45px;
+            padding: 2vh 7vh 1vh 7vh;
             color: white;
             font-weight: 500;
             border-radius: 50px;
@@ -218,7 +218,7 @@ a {
             margin-left: 55px;
 
             img {
-                height: 45px;
+                height: 6vh;
                 width: auto;
                 padding-top: 5px;
             }
@@ -286,19 +286,18 @@ a {
             border-radius: 50px;
             box-shadow: 10px 10px 15px 15px #5a5a5a13;
             margin-top: 40px;
-            margin-right: 75px;
+            margin-right: 70px;
 
             img {
-                height: 45px;
+                height: 40px;
                 width: auto;
                 padding-top: 5px;
             }
 
             p {
                 padding-left: 20px;
-                padding-top: 8px;
+                padding-top: 5px;
                 font-weight: 600;
-                font-size: 18px;
                 color: $main_text_color;
             }
         }
@@ -409,16 +408,16 @@ a {
     button {
         border: none;
         background-color: white;
-        padding: 18px 45px 8px 45px;
+        padding: 2vh 7vh 1vh 7vh;
         color: white;
         font-weight: 500;
         border-radius: 50px;
         box-shadow: 10px 10px 15px 15px #5a5a5a13;
-        margin-top: 90px;
-        margin-right: 75px;
+        margin-top: 40px;
+        margin-left: 55px;
 
         img {
-            height: 45px;
+            height: 6vh;
             width: auto;
             padding-top: 5px;
         }
@@ -427,7 +426,6 @@ a {
             padding-left: 20px;
             padding-top: 8px;
             font-weight: 600;
-            font-size: 18px;
             color: $main_text_color;
         }
     }

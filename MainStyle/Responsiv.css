@@ -5,49 +5,44 @@
   h4,
   h5,
   h6 {
-    font-weight: 600;
     font-size: 5vh;
-    line-height: 4rem;
-  }
-  .Hero_section .Hero_info {
-    margin: 0 auto;
   }
   .Hero_section .Hero_info h1 {
     line-height: 3.8rem;
     text-align: center;
-    -webkit-transform: translateX(-45px);
-            transform: translateX(-45px);
     margin-top: -50px;
     margin-bottom: 25px;
+    -webkit-transform: translateX(-45px);
+            transform: translateX(-45px);
   }
   .Hero_section .Hero_info p {
     text-align: center;
-    -webkit-transform: translateX(-45px);
-            transform: translateX(-45px);
+    -webkit-transform: translateX(-40px);
+            transform: translateX(-40px);
   }
   .Hero_section .Hero_info button {
-    -webkit-transform: translateX(-20px);
-            transform: translateX(-20px);
+    padding: 2vh 7vh;
+    -webkit-transform: translateX(-35px);
+            transform: translateX(-35px);
   }
   .Hero_section .Hero_img {
     position: relative;
   }
   .Hero_section .Hero_img img {
-    padding-right: 30px;
+    margin-left: 20px;
   }
   .Hero_section .Hero_img .Hero_slyder .owl-carousel {
-    height: 75px;
-    width: 380px;
+    height: 10vh;
+    width: 95vw;
     position: absolute;
     top: 200px;
-    padding-left: 40px;
-    background-color: #4B6FDB;
-    border-radius: 35px 5px 5px 5px;
   }
   .Hero_section .Hero_img .Hero_slyder .owl-carousel .item {
-    width: 130px;
+    width: 32vw;
     height: auto;
-    padding-top: 10px;
+    padding-top: 15px;
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
   }
   .Hero_section .Hero_side_design img {
     position: absolute;
@@ -86,6 +81,7 @@
   .Why_us .part_2 img {
     margin-bottom: -86px;
     padding-left: 50px;
+    padding-top: -50px;
   }
   .Why_us .part_2 p {
     text-align: center;
@@ -95,7 +91,7 @@
     position: relative;
   }
   .Rated .Rated_img img {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-left: 20px;
   }
   .Rated .Rated_info {
@@ -112,7 +108,7 @@
   }
   .Rated .Rated_info img {
     margin-bottom: -50px;
-    padding-top: 70px;
+    padding-top: 10px;
   }
   .Rated .Rated_info h1 {
     text-align: center;
@@ -140,7 +136,7 @@
   }
   .Rated #Rated_side_section #Rated_side_section_01 {
     position: absolute;
-    top: -4%;
+    top: 2%;
     left: 70%;
     z-index: -1;
     height: 100px;
@@ -157,10 +153,10 @@
     padding-top: 150px;
   }
   .Just_stay .just_stay_img img {
-    height: 400px;
+    height: 45vh;
     width: auto;
-    margin-left: 40px;
-    margin-top: 150px;
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
   }
   .Just_stay .just_stay_info {
     margin-top: 120px;
@@ -179,39 +175,48 @@
             justify-content: center;
   }
   .Just_stay .just_stay_info img {
-    margin-bottom: -55px;
+    -webkit-transform: translateX(-4rem);
+            transform: translateX(-4rem);
   }
   .Just_stay .just_stay_info .just_information {
     text-align: end;
   }
   .Just_stay .just_stay_info .just_information h1 {
-    padding-right: 70px;
+    text-align: center;
+    -webkit-transform: translateX(2rem);
+            transform: translateX(2rem);
   }
   .Just_stay .just_stay_info .just_information p {
-    padding-right: 75px;
+    text-align: center;
+    -webkit-transform: translateX(2rem);
+            transform: translateX(2rem);
   }
   .Just_stay .just_stay_info button {
     border: none;
     background-color: white;
-    padding: 18px 45px 8px 45px;
+    padding: 10px 35px 5px 25px;
     color: white;
     font-weight: 500;
     border-radius: 50px;
     -webkit-box-shadow: 10px 10px 15px 15px #5a5a5a13;
             box-shadow: 10px 10px 15px 15px #5a5a5a13;
     margin-top: 40px;
-    margin-right: 75px;
+    margin-right: 70px;
+    -webkit-transform: translateX(15px);
+            transform: translateX(15px);
   }
   .Just_stay .just_stay_info button img {
-    height: 45px;
+    height: 40px;
     width: auto;
     padding-top: 5px;
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+    margin-top: 2px;
   }
   .Just_stay .just_stay_info button p {
-    padding-left: 20px;
+    padding-left: -20px;
     padding-top: 8px;
     font-weight: 600;
-    font-size: 18px;
     color: #4B6FDB;
   }
   .Just_stay .Just_stay_side_section .Just_stay_side_section_01 {
@@ -225,7 +230,7 @@
     top: 30%;
     left: 20%;
     z-index: -1;
-    height: 300px;
+    height: 35vh;
     width: auto;
   }
   .Make_partnership {
@@ -374,7 +379,7 @@
   .community_section .community_section_side_section .community_section_side_section_img_01 {
     position: absolute;
     top: 15%;
-    left: 70%;
+    left: 60%;
   }
   .community_section .community_section_side_section .community_section_side_section_02 {
     position: absolute;
