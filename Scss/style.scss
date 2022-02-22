@@ -29,11 +29,13 @@ h6 {
     font-weight: 600;
     font-size: 7vh;
     line-height: 4rem;
+    
 }
 p,
 a {
     color: #707070;
     line-height: 2rem;
+    
 }
 
 .animate__animated{
@@ -120,6 +122,17 @@ a {
     }
     .Hero_img{
         position: relative;
+        animation: pushUp_01 4s ease infinite;
+
+        @keyframes pushUp_01 {
+            0%, 100%{
+                transform: translateY(-20px);
+            }
+            50%{
+                transform: translateY(0px);
+            }
+        }
+
         img {
             padding-right: 30px;
             

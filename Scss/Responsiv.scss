@@ -1,5 +1,5 @@
 @import "variables";
-@media (max-width: 552px) {
+@media (max-width: 752px) {
     h1,
     h1,
     h3,
@@ -121,7 +121,7 @@
             }
             button {
                 padding: 15px 45px 8px 45px;
-
+              
                 margin-top: 40px;
                 margin-left: -35px;
 
@@ -250,10 +250,10 @@
             flex-direction: column-reverse;
 
             .info {
-                padding: 60px;
+                padding: 30px;
                 background-color: #6a00ff;
                 border-radius: 0px 0px 8px 8px;
-
+                width: 295px;
                 h6 {
                     font-size: 26px;
                     line-height: 2rem;
@@ -268,9 +268,8 @@
             .left-1_img {
                 img {
                     border-radius: 8px 8px 0px 0px;
-                    max-height: 300px;
-                    height: 300px;
-                    width: 100%;
+                    height: 295px;
+                    width: 295px;
                 }
             }
         }
@@ -281,9 +280,10 @@
             flex-direction: column;
 
             .info {
-                padding: 60px;
+                padding: 30px;
                 background-color: #ff8400;
                 border-radius: 0px 0px 8px 8px;
+                width: 295px;
                 h6 {
                     font-size: 26px;
                     line-height: 2rem;
@@ -299,8 +299,8 @@
                 img {
                     border-radius: 8px 8px 0px 0px;
                     max-height: 300px;
-                    height: 300px;
-                    width: 100%;
+                    height: 295px;
+                    width: 295px;
                 }
             }
         }
@@ -309,6 +309,7 @@
             .right-1_img {
                 img {
                     border-radius: 8px 8px 0px 0px;
+                    
                 }
             }
             .info {
@@ -330,7 +331,7 @@
         button {
             border: none;
             background-color: white;
-            padding: 18px 45px 8px 45px;
+            padding: 18px 30px 8px 35px;
             color: white;
             font-weight: 500;
             border-radius: 50px;
@@ -364,7 +365,7 @@
                 position: absolute;
                 height: 150px;
                 top: 2%;
-                left: 65%;
+                left: 55%;
                 z-index: -1;
             }
         }

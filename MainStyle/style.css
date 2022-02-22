@@ -130,6 +130,30 @@ a {
 
 .Hero_section .Hero_img {
   position: relative;
+  -webkit-animation: pushUp_01 4s ease infinite;
+          animation: pushUp_01 4s ease infinite;
+}
+
+@-webkit-keyframes pushUp_01 {
+  0%, 100% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes pushUp_01 {
+  0%, 100% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
 }
 
 .Hero_section .Hero_img img {
